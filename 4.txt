@@ -1,0 +1,21 @@
+a) False: HTML5 form input types may be rendered differently across various HTML5-compliant browsers. While browsers generally follow the specifications, they can still have differences in appearance and behavior.
+
+b) False: Placeholder text is not submitted to the server when the form is submitted. It's just a visual aid for users and is typically cleared when the user starts entering data.
+
+c) False: While you're not required to include the autofocus attribute in your forms, using it will make the specified input field receive focus automatically when the page loads, which can enhance user experience.
+
+d) True: HTML5 introduced new input types like email, url, number, etc., which do have some level of built-in client-side validation, reducing the need for complex scripts. However, they might not cover all validation scenarios.
+
+e) True: The range input type is self-validating when rendered as a slider, as the user can only select values within the specified range. This helps prevent values outside the minimum and maximum bounds.
+
+f) False: While the tel input type is designed for telephone numbers, HTML5 does not inherently validate the correctness of a telephone number's format. It's up to the browser's implementation or additional JavaScript to handle validation.
+
+g) True: The url input type does have basic validation for URL formatting. If an improperly formatted URL is entered, the browser may prevent form submission. However, it doesn't validate if the URL actually exists on the web.
+
+h) False: The <nav> element is used to represent a section of a page that contains navigation  links. It does not inherently display a drop-down menu. The styling and functionality of the navigation menu need to be implemented using CSS and possibly JavaScript.
+
+i) False: The <header> element can be used multiple times on a page to mark different sections as headers. For instance, you might have headers for different sections of content.
+
+j) True: <nav> elements can indeed be nested within an <aside> element. Both <nav> and <aside> are structural elements that can hold various content types.
+
+k) False: There is no <brk> element in HTML. If you meant <br>, it's used for line breaks in text content and doesn't directly control word breaks. To control word breaks, you can use CSS properties like word-wrap or overflow-wrap.

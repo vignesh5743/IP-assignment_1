@@ -1,0 +1,45 @@
+a) Students were asked to rate the food in the cafeteria on a scale of 1 to 10. Use a meter element with text to its left and right to indicate that the average rating was 7 out of 10.
+
+<p>The average rating was <meter value="0.7">7 out of 10</meter>.</p>
+
+b) Create a details element that displays the summary text "Survey Results" for Part (a). When the user clicks the arrow next to the summary text, an explanatory paragraph about the survey should be displayed.
+
+<details>
+    <summary>Survey Results</summary>
+    <p>An average rating of 7 out of 10 was obtained from student cafeteria food ratings.</p>
+</details>
+
+c) Create a text input element for a first name. The element should automatically receive the focus when the form is rendered in a browser.
+
+<input type="text" id="first_name" name="first_name" autofocus>
+
+d) Modify Part (c) to eliminate the label element and use placeholder text in the input element.
+
+<input type="text" id="first_name" name="first_name" autofocus placeholder="First Name">
+
+e) Use a datalist to provide an autocomplete list for five states.
+
+
+<input type="text" id="state" name="state" list="states">
+<datalist id="states">
+    <option value="California">
+    <option value="New York">
+    <option value="Texas">
+    <option value="Florida">
+    <option value="Illinois">
+</datalist>
+
+f) Create a range input element that allows the user to select a number from 1 to 100.
+
+
+<label for="rating">Select a rating:</label>
+<input type="range" id="rating" name="rating" min="1" max="100">
+g) Specify that autocomplete should not be allowed for a form. Show only the form’s opening tag.
+
+
+<form autocomplete="off">
+</form>
+h) Use a mark element to highlight the second sentence in the following paragraph.
+
+<p>Students were asked to rate the food in the cafeteria
+<mark>on a scale of 1 to 10.</mark> The average result was 7.</p>
